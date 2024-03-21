@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #8d8d8d;
+    font-size: 62.5%;
+    font-family:'Poppins', sans-serif; 
+
+}
+
+.cusorder_cover {
+    margin: 50px 200px;
+    background-color: #fff;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.cusorder-title {
+    margin-bottom: 40px;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.cusorder-line {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #d7d7d7;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #8d8d8d;
+}
+
+.cusorder-line-address {
+    padding-left: 10px;
+    align-items: center;
+    width: 40%;
+}
+
+.cusorder-line-address-text {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.cusorder-line-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+table, th, td{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+table{
+    border-collapse:collapse;
+}
+
+.cusorder-line-table-first{
+    background-color: #d7d7d7;
+    height: 40px;
+}
+
+.cusorder-line-table {
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+}
+
+.cusorder-line-table tr{
+    
+}
+
+.cusorder-line-table td{
+    text-align: center;
+}
+
+

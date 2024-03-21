@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Sales Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .sales-container {
+            display: flex;
+            gap: 40px;
+        }
+
+        .sales-table {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 60%;
+            overflow-x: auto; /* Cho phép cuộn ngang khi bảng quá rộng */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .tb-summary-form {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 25%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sales-input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .sales-button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sales-container">
+        <!-- Bảng hiển thị thông tin sản phẩm -->
+        <div class="sales-table tb">
+            <h2>Product Sales Report</h2>
+            <table class="tb">
+                <tr>
+                    <th class="tb">Product Name</th>
+                    <th class="tb">Quantity Sold</th>
+                    <th class="tb">Month</th>
+                    <th class="tb">Cost Price</th>
+                    <th class="tb">Selling Price</th>
+                    <th class="tb">Profit</th>
+                </tr>
+                <tr>
+                    <td class="tb"><input type="text" id="productName" class="sales-input tb" required></td>
+                    <td class="tb"><input type="number" id="quantitySold" class="sales-input tb" required></td>
+                    <td class="tb"><input type="month" id="month" class="sales-input tb" required></td>
+                    <td class="tb"><input type="number" id="costPrice" class="sales-input tb" required></td>
+                    <td class="tb"><input type="number" id="sellingPrice" class="sales-input tb" required></td>
+                    <td class="tb"><input type="text" id="profit" class="sales-input tb" readonly></td>
+                </tr>
+            </table>
+            <button class="sales-button tb" type="button" onclick="calculateProfit()">Calculate Profit</button>
+        </div>
+
+        <!-- Form tổng kết -->
+        <div class="tb-summary-form">
+            <h2>Summary</h2>
+            <label for="totalProfit">Total Profit:</label>
+            <input class="sales-input tb" type="text" id="totalProfit" readonly>
+            <label for="totalQuantity">Total Quantity Sold:</label>
+            <input class="sales-input tb" type="text" id="totalQuantity" readonly>
+        </div>
+    </div>
+
+    <script>
+        function calculateProfit() {
+            var quantitySold = parseFloat(document.getElementById("quantitySold").value);
+            var costPrice = parseFloat(document.getElementById("costPrice").value);
+            var sellingPrice = parseFloat(document.getElementById("sellingPrice").value);
+
+            var profit = (sellingPrice - costPrice) * quantitySold;
+            document.getElementById("profit").value = profit.toFixed(2);
+        }
+    </script>
+</body>
+</html>

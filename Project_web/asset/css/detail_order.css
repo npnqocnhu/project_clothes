@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:'Poppins', sans-serif; 
+
+}
+
+body{
+    width: 100%;
+    background-color: #f4f5f7;
+}
+
+.cover{
+    margin: 40px 200px;
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.cover-id{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.cover-id-text{
+    
+}
+
+table, th, td{
+}
+
+table{
+    border-collapse:collapse;
+    font-size: 1.6rem;
+    width: 100%;
+    border: 2px solid #b7bec4;
+}
+
+.cover-id_product-table th{
+    background-color: #f1f5f7;
+    padding: 10px 10px;
+}
+
+.cover-id_product-table th:first-child, .cover-id_product-table th:nth-child(2) {
+    text-align: left;
+}
+
+.cover-id_product-table td:first-child, .cover-id_product-table td:nth-child(2) {
+    text-align: left;
+}
+
+.cover-id_product-table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.cover-address-delivery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cover-id_address{
+    font-size: 1.6rem;
+    border: 2px solid #b7bec4;
+    padding: 10px;
+    width: 48%;
+}
+
+.cover-id_address-customer{
+    line-height: 40px;
+}
+
+.cover-id-delivery{
+    width: 48%;
+    font-size: 1.6rem;
+    flex-direction: column;
+    border: 2px solid #b7bec4;
+    display: flex; /* Sử dụng flexbox để canh giữa */
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+}
+
+.cover-id-delivery p{
+    text-align: center;
+}
+
+.cover-id-delivery i {
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+    color: #72777c;
+}
+
+.cover-thanhtoan{
+    float: right;
+    font-size: 1.6rem;
+}

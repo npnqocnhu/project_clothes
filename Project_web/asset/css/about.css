@@ -1,0 +1,107 @@
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    padding: 0 130px;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.page {
+    padding: 10px 0 20px 0;
+}
+
+.fashion-title-large{
+    font-size: 2.8rem;
+    font-weight: 900;
+    padding-top: 30px;
+    color: #000;
+}
+
+.fashion {
+
+}
+
+.fashion-time{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.fashion-title {
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.fashion-text {
+    font-size: 1.4rem;
+    margin-bottom: 35px;
+}
+
+.title-end{
+    margin-bottom: 35px;
+}
+
+.footer{
+    background-color: #000;
+    width: 100%;
+}
+
+.footer-container{
+    padding: 60px 180px 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid__column-2-4{
+    width:50%;
+    padding: 30px 0 30px 0;
+}
+
+.footer-column{
+    color: #999;
+}
+
+.footer-title{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 2.2rem;
+    position: relative;
+}
+
+.footer-title::before{
+    position: absolute;
+    left: 0;
+    top:48px;
+    width: 20%;
+    height: 3px;
+    content: "";
+    display: block;
+    background-color: #fff;
+}
+
+.footer-column-text{
+    margin-right: 50px;
+}
+
+.footer-text{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    color: #999;
+}
+
+.footer-text i{
+    margin-right: 5px;
+}
+
+.footer-column-text{
+    margin-bottom: 30px;
+}
+
+.footer-text-img{
+    background-color: #fff;
+    margin: 10px 5px;
+    height: 20px;
+}

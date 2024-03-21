@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.add-product-main{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;            
+    background-image: linear-gradient(to right, pink, #fff);
+}
+
+.add-product-cover{
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #3bafda, pink);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #555;
+}
+
+.add-product-title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 20px;
+    color: #fff;
+}
+
+.add-product-line{
+    padding: 10px;
+    margin: 10px;
+}
+
+.add-product-text{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.add-product-input{
+    width: 400px;
+    height: 35px;
+    font-size: 1.6rem;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.add-product-input:focus{
+    outline: none;
+}
+
+.line-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-product-select{
+    margin-left: 10px;
+    transform: translateY(7px);
+    width: 150px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    max-width: 200px;
+    overflow-y: auto;
+}
+
+.add-product-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-product-btn-add{
+    border: none;
+    background-image: linear-gradient(to right, pink, #fff);
+    padding: 5px 40px;
+    margin-right: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #333;
+}
+
+.add-product-btn-resert{
+    border: none;
+    background-image: linear-gradient(to right, pink, #fff);
+    padding: 5px 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #333;
+}
+
+.add-product-btn-resert:hover, .add-product-btn-add:hover{
+    background-image: linear-gradient(to right, rgb(255, 106, 130), #fff);
+}

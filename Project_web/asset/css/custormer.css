@@ -1,0 +1,84 @@
+.grid-8-column{
+    /* margin-top: 80px;
+} */}
+
+.custormer-form{
+    margin: 0 20px;
+}
+
+.custormer-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px 20px; */
+    margin: 30px 0px;
+}
+
+.custormer-search{
+    height: 35px;
+    padding-left: 10px;
+}
+
+.custormer-btn{
+    font-size: 1.4rem;
+    padding: 8px 20px;
+    background-color: #f1556c;
+    color: #fff;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    border: none;
+}
+
+.custormer-btn:hover{
+    background-color: #3bafda;
+}
+
+.customer_add_link{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.custormer-title{
+    background-color: #f1f5f7;
+}
+
+.custormer-column{
+    padding: 15px 0;
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.custormer-line-text{
+
+}
+
+.custormer-line-content{
+    padding: 15px 0;
+    color: #000;
+    font-size: 1.4rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.custormer-content-btn{
+    border: none;
+    background: none;
+}
+
+.custormer-content-btn:hover{
+    color: #3bafda;
+}
+
+.custormer-status{
+    background-color: #1abc9c;
+    display: inline;
+    padding: 2px 5px;
+    color: #fff;
+    border-radius: 5px;
+}

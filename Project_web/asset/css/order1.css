@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-image: linear-gradient(to right, #CCFFFF, #00FFFF);
+}
+
+.addorder {
+    margin: 80px 100px;
+    background-color: #fff;
+}
+
+.addorder-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #ccc;
+
+}
+
+.addorder-container_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addorder-title {
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.addorder-content {
+    flex-grow: 1;
+    align-items: center; /* Căn giữa nội dung trong thẻ con */
+    padding: 40px;
+    font-size: 1.6rem;
+}
+
+.addorder-border{
+    border-left: 1px solid #ccc;
+}
+
+.addorder-title-h4 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.addorder-line-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addorder-line {
+    margin: 10px 20px;
+}
+
+.addorder-select {
+
+}
+
+.addorder-text {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.addorder-line-wight{
+    width: 280px;
+}
+
+.addorder-input {
+    margin-top: 5px;
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+.addorder_total{
+    float: right;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+}
+
+.addorder_total-text{
+    margin-right: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    transform: translateY(10%);
+}
+
+.addorder_total-input{
+    height: 30px;
+}
+
+.addorder-btn-add{
+    padding: 0px 40px;
+    height: 30px;
+    border: none;
+    background-color: #9999FF;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px #ccc;
+}
+
+.addorder-btn-add:hover{
+    background-color: #6699FF;
+}

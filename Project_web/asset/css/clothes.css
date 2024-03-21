@@ -1,0 +1,267 @@
+html{
+    font-size: 62.5%;
+}
+
+.main-header{
+    position: relative;
+}
+
+.container{
+    padding: 0 130px;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.page {
+    padding: 10px 0 20px 0;
+}
+
+.main__clothes{
+    padding: 20px 130px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.home-filter{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 55px;
+    border: 0.5px solid #c8c8c8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.select-input:hover .select-input__list{
+    display: block;
+}
+
+.select-input::before{
+    position: absolute;
+    left: 0;
+    top:70%;
+    width: 100%;
+    height: 20px;
+    content: "";
+    display: block;
+}
+.select-input__label{
+    padding: 10px 60px;
+    font-size: 1.8rem;
+}
+
+.select-input__label:hover{
+    color:#000;
+    text-shadow: 2px 0px 10px rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+
+.select-input__list{
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    box-shadow: 0 0 5px #333;
+    left: 0;
+    right: 0;
+    top: 55px;
+    border-radius: 2px;
+    padding: 8px 16px ;
+    z-index: 1;
+}
+
+.select-input__item{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.select-input__item:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.select-input__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.home-filter-title{
+    color: #000;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height:55px;
+    margin-left: 20px;
+}
+
+.grid-column-10{
+    width: 100%;
+}
+
+.grid-column-10-2{
+    width: 20%;
+}
+
+.grid-row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid-column-2-5{
+    width: 20%;
+    margin-right: 10px;
+}
+
+.portfolio{
+    border: .1px solid #ddd;
+    list-style: none;
+}
+
+.portfolio__header{
+    padding: 8px 0;
+    background-color: #383838;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.portfolio-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.portfolio-item{
+    padding: 10px 30px;
+    font-size: 1.6rem;
+}
+
+.portfolio-item:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.portfolio>li{
+    border-bottom: .1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio>li:nth-last-child(1){
+    border: none;
+}
+
+.portfolio__header>i{
+    padding: 0 25px;
+    font-size: 1.6rem;
+}
+
+.home-product{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-product-item{
+    width: 25%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.home-product-item:hover{
+    transform: translateY(-1px); /*Chạy ngược lên 1px*/
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.08);/*Giá trị thứ 3 là độ nhòe*/
+}
+
+.home-product-item:last-child{
+    margin-right: 0;
+}
+
+.home-product-item__link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.home-product-item__link:hover{
+    transform: translateY(-1px); /*Chạy ngược lên 1px*/
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.home-product-item__img{
+    width: 100%;
+    object-fit: contain;
+}
+
+h4.home-product-item__name,
+p {
+    display: inline;
+    margin: 0; 
+}
+
+.home-product-item__name{
+    font-size: 1.8rem;
+}
+
+.home-product-text{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.home-product__price-cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-product-item__price{
+    margin-top: 10px;
+}
+
+.home-product-item-pay{
+    margin-right: 20px;
+    font-size: 2.4rem;
+}
+
+.home-product-item-pay:hover{
+    font-size: 3.2rem;
+}
+
+.home-product-item__price-old{
+    color: #666;
+    font-size: 1.6rem;
+}
+
+.home-product-item__price-current{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.text-addess{
+    display: flex;
+    flex-direction: column;
+}
+
+

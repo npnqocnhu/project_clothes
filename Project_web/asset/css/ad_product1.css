@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; 
+    color: #6e768e;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.grid-8-column{
+    margin: 0 30px 50px 0;
+    background-color: #fff;
+}
+
+.ad_product {
+}
+
+.ad_product-main {
+    margin: 25px;
+}
+
+.ad-product-header {
+    margin: 20px 0 20px 0;
+    height:37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad-product-header__icon{
+    width: 150px;
+    height: 100%;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f1556c;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.ad-product-header__icon:hover{
+    background-color: #3bafda;
+}
+
+.ad-product-header__search{
+    font-size: 1.6rem;
+    height: 70%;
+}
+
+.ad-product-input__search{
+    height: 100%;
+    width: 250px;
+}
+
+.ad-product-btn{
+    padding: 5px 30px;
+    border: none;
+    background-color: #f1556c;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.ad-product-btn:hover{
+    background-color: #3bafda;
+}
+
+.ad-product-header-link{
+    text-decoration: none;
+}
+
+
+.ad-product-title{
+    background-color: #f1f5f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px 10px;
+}
+
+.ad-product-title-type{
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 600;
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+.ad-type-id{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.ad-type-right{
+    text-align: right;
+}
+
+.ad-product-img{
+    width: 60px;
+}
+
+.grid-8-column{
+    margin-top: 100px;
+}
+
+.ad-product-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ad-product-line{
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ad-product-row{
+    width: calc(100% / 6);
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+.ad-product-img{
+    margin: 5px 0;
+}
+
+.ad-type-row{
+    flex-grow: 1;
+    text-align: center;
+    width: calc(100% / 12);
+}
+
+.ad-product-icon{
+    font-size: 2rem;
+    padding: 5px;
+}
